@@ -1,0 +1,126 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<title>Untitled 1</title>
+<style type="text/css">
+.auto-style1 {
+	margin-left: 40px;
+}
+.auto-stylef14 {
+	text-align: center;
+}
+.auto-style7 {
+}
+</style>
+</head>
+
+<body style="margin-left: 20px; margin-right: 30px; margin-top: 20px; margin-bottom: 30px; background-image: url('background.jpeg');
+	background-repeat: no-repeat; 
+	background-attachment: fixed;
+	background-size: cover" onload="FP_preloadImgs(/*url*/'map_solution.jpeg')">
+
+
+<h1>About</h1>
+
+<p>This is a project done by Ferran De La Varga Antoja in
+<a href="https://teaching.scss.tcd.ie/module/stu11001-software-applications-i/" target="_blank">
+STU11001 – Software Applications I</a> Semester 1 2022-2023, Trinity College 
+Dublin, using Microsoft Expression Web 4.</p>
+<p>In this page, I'm going to explain very briefly how I've made the website and 
+how I have developed the features required.</p>
+<h2>Features required</h2>
+<h4>1. formatting (Arial, font size 12; margins: 30px side, 20px top and bottom; 
+a few headings)</h4>
+<p class="auto-style1">This format has been applied in quiz.html page.</p>
+<h4><br />
+2. table (apply different background for a better view; merge some rows/columns; 
+align text to left and centre; autofit to content to adjust column width 
+automatically)</h4>
+<p class="auto-style1">In 4.Main sights, barcelona.html, there's a table. 
+Autofit is enabled.</p>
+<h4><br />
+3. image (wrap text around the image to enclose the image)</h4>
+<p class="auto-style1">In 1.Description and 2.Geography there's a Photo 
+surrounded by text.</p>
+<h4>4. anchor link</h4>
+<p class="auto-style1">In barcelona.html, there's an index. If a section of the 
+index is clicked it will redirect to the corresponding section (heading) in the 
+page.</p>
+<h4><br />
+5. mailto link</h4>
+<p class="auto-style1">At the end of barcelona.html, contact section.</p>
+<h4><br />
+6. text link to external site</h4>
+<p class="auto-style1">Multiple links to external sites are found in almost all 
+pages, being in the text, in the bibliography or in the images of the table.</p>
+<h4><br />
+7. irregular hotspot</h4>
+<p align="justify" class="auto-style1">In quiz.html there's a game for identifying in a 
+Barcelona's map the Sagrada Família. I've enabled the option to have a unique 
+cursor for not finding the answer by simply looking at how the cursor could have changed when 
+crossing the irregular hotspot. The cursor displayed in the hole map is called 
+"crosshair" and has been added in the &lt;style&gt; section of the html.<br />
+There's a button that when clicked the picture changes to the picture with the 
+solution.<br />
+If the user finds the solution (clicks the Sagrada Família) it is redirected to 
+the quiz_correct.html page.</p>
+<h4><br />
+8. disjointed rollover</h4>
+<p align="justify" class="auto-style1">Once in quiz_correct.html, the user can 
+give feedback. For now feedback given by the user is not taken into account. There are two 
+small gif emojis (happy and sad) and a bigger one (neutral). If the user mouse 
+over one small emoji, the emoji pointed by the mouse will be reflected in the 
+bigger one (disjointed rollover).<br />
+When a small emoji is clicked a message appears saying thank you and the big 
+emoji stays fixed depending on the feedback sent.</p>
+<h4><br />
+9. navigation (each page has links to all the other pages)</h4>
+<p class="auto-style1">Yes. Normally at the bottom of each page.</p>
+<h4><br />
+10. form</h4>
+<p align="justify" class="auto-style1">Located in the Contact section at the bottom of 
+barcleona.html. You can reset the form or submit the form (send an email with 
+the answers). Note that the message is not an "input" type, it is a "textarea". 
+I've used this type for having the text wrapped and also, now, the text written can be seen properly because 
+the text box can be made larger or smaller by the user, depending 
+on if he wants to add a short or a large message.</p>
+<h4><br />
+11. Javascript</h4>
+<p align="justify" class="auto-style1">In quiz_correct.html, there's a button that, when 
+clicked, the exact time and date is displayed through a message.<br />
+The main page (index.html), displays the button for going to the barcelona.html 
+5 seconds after the index.html page has loaded. <br />
+</p>
+<h2 align="justify">Responsive Web Design and others</h2>
+<p align="justify" class="auto-style1">For justifying the text, I've used: 
+align="justify".</p>
+<p align="justify" class="auto-style1">All pages follow the Responsive Web 
+Design principle. All html pages can be resized and all the content (text, 
+images, tables, etc.) will be resized for being fit in the new viewport. That 
+means that this website can be accessed through tablets and mobile phones 
+because the content is auto-resized. <br />
+For configure it I have made a little modification in &lt;meta&gt; and for each 
+picture added, the size is not defined in pixels but in percentage. The only 
+image that is not expressed in percentage is the map of the quiz because I've 
+seen that in small screens the map couldn't be seen properly.</p>
+<p align="justify" class="auto-style1">&nbsp;</p>
+<p></p>
+<hr />
+<div class="auto-stylef14">
+	<a href="index.html">Welcome</a>&nbsp;&nbsp;&nbsp; |&nbsp;&nbsp;&nbsp; <a href="about.html">About</a>&nbsp;&nbsp;&nbsp; 
+	|&nbsp;&nbsp;&nbsp; <span class="auto-style7"><a href="barcelona.html">Barcelona</a>&nbsp;&nbsp;&nbsp; 
+	|&nbsp;&nbsp;&nbsp; </span><a href="quiz.html">Quiz</a>&nbsp;&nbsp;&nbsp; 
+	|&nbsp;&nbsp;&nbsp; <a href="quiz_correct.html">Quiz 
+	Correct &amp; Feedback</a><br />
+</div>
+<hr />
+<h3></h3>
+<p align="justify" class="auto-style1">&nbsp;</p>
+<p align="justify" class="auto-style1"> <br />
+</p>
+
+</body>
+
+</html>
