@@ -5,6 +5,7 @@ This is an assignment I've done in [STU11001 – Software Applications I](https:
 Click [here](https://ferranjrr.github.io/Website-HTML-JavaScript-Microsoft-Expression-Web-4/) to access to the website.
 
 All the requirements can be found in [2022_A2.pdf](./2022_A2.pdf).
+For more information about how it has been done, see [about.html](https://ferranjrr.github.io/Website-HTML-JavaScript-Microsoft-Expression-Web-4/about.html)
 
 Text and images are taken from different sites from the internet and the reference of those are specified in the Bibliography sections of the .html files.
 
