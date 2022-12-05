@@ -59,10 +59,10 @@ function DateTimeBarcelona() {
 </script>
 </head>
 
-<body style="margin-left: 20px; margin-right: 30px; margin-top: 20px; margin-bottom: 30px; background-image: url('background.jpeg');
+<body style="margin-left: 20px; margin-right: 30px; margin-top: 20px; margin-bottom: 30px; background-image: url('./img/background.jpeg');
 	background-repeat: no-repeat; 
 	background-attachment: fixed;
-	background-size: cover" onload="FP_preloadImgs(/*url*/'happy-empoji.gif',/*url*/'disappointed-face.gif')">
+	background-size: cover" onload="FP_preloadImgs(/*url*/'./img/happy-empoji.gif',/*url*/'./img/disappointed-face.gif')">
 
 
 <h1 class="auto-style1">Correct!!</h1>
@@ -71,12 +71,12 @@ function DateTimeBarcelona() {
 <p class="auto-style1">Click on one emoji depending on the feedback you want to 
 give us:</p>
 <p class="auto-style1">
-<img alt="happy_emoji" class="pointer" height="5%" name="happy" src="happy-empoji.gif" width="5%" onclick="FP_swapImg(1,0,/*id*/'neutral_face',/*url*/'happy-empoji.gif'); FP_popUpMsg('Thank you for the feedback!')" onmouseout="FP_swapImgRestore()" onmouseover="FP_swapImg(1,1,/*id*/'neutral_face',/*url*/'happy-empoji.gif')" />&nbsp;&nbsp;&nbsp;
-<img alt="not_happy" class="pointer" height="5%" name="not_happy" src="disappointed-face.gif" width="5%" onmouseout="FP_swapImgRestore()" onmouseover="FP_swapImg(1,1,/*id*/'neutral_face',/*url*/'disappointed-face.gif')" onclick="FP_swapImg(1,0,/*id*/'neutral_face',/*url*/'disappointed-face.gif'); FP_popUpMsg('Thank you for your feedback!\r\nWe\'ll try to improve it.')" /></p>
+<img alt="happy_emoji" class="pointer" height="5%" name="happy" src="./img/happy-empoji.gif" width="5%" onclick="FP_swapImg(1,0,/*id*/'neutral_face',/*url*/'./img/happy-empoji.gif'); FP_popUpMsg('Thank you for the feedback!')" onmouseout="FP_swapImgRestore()" onmouseover="FP_swapImg(1,1,/*id*/'neutral_face',/*url*/'./img/happy-empoji.gif')" />&nbsp;&nbsp;&nbsp;
+<img alt="not_happy" class="pointer" height="5%" name="not_happy" src="./img/disappointed-face.gif" width="5%" onmouseout="FP_swapImgRestore()" onmouseover="FP_swapImg(1,1,/*id*/'neutral_face',/*url*/'./img/disappointed-face.gif')" onclick="FP_swapImg(1,0,/*id*/'neutral_face',/*url*/'./img/disappointed-face.gif'); FP_popUpMsg('Thank you for your feedback!\r\nWe\'ll try to improve it.')" /></p>
 <p class="auto-style1">
 Your final feedback:</p>
 <p class="auto-style1">
-<img alt="neutral_face" height="35%" name="neutral_face" src="neutral-face.gif" width="35%" />&nbsp;</p>
+<img alt="neutral_face" height="35%" name="neutral_face" src="./img/neutral-face.gif" width="35%" />&nbsp;</p>
 <p class="auto-style1">&nbsp;</p>
 <p class="auto-style1">
 Curious?<form method="post">
